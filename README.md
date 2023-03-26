@@ -1,8 +1,6 @@
-# Browser Extension Template
+# Cat Music Migrate
 
 ## w/ React Preact Typescript ESBuild
-
-![Generic badge](https://img.shields.io/badge/build-success-brightgreen.svg)
 
 > Browser Extension Template with ESbuild builds, support for React, Preact, Typescript, Tailwind, Manifest V3/V2 support and multi browser build including Chrome, Firefox, Safari, Edge, Brave.
 
@@ -17,7 +15,7 @@
 - Autoreloads Browser
 - Isolated Browser Profiles
 
- ## Commands
+## Commands
 
 ```sh
 # Install packages
@@ -55,14 +53,15 @@ Scripts & Pages (located in `src/pages`):
 - history
 - options
 - popup
-- bookmarks  
-- devtools   
+- bookmarks
+- devtools
 - newtab
 - panel
 
 Just delete the folders of pages you don't require, the builds scripts detects automatically what's in there and adjusts the manifest automatically.
 
 Browsers:
+
 - arc
 - brave
 - chrome
@@ -74,14 +73,14 @@ Browsers:
 - firefox-developer-editon
 - firefox
 - opera
-- orion *
-- safari *
-- safari-beta *
-- safari-technical-preview *
+- orion \*
+- safari \*
+- safari-beta \*
+- safari-technical-preview \*
 - sidekick
 - vivaldi
 
-Browsers with * stars get a build, but needs to be launched manually, and extension needs to loaded manually with Xcode.
+Browsers with \* stars get a build, but needs to be launched manually, and extension needs to loaded manually with Xcode.
 
 ## Notes
 
